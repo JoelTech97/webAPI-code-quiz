@@ -6,7 +6,7 @@ var timerInterval;
 function setTime() {
     timerInterval = setInterval(function () {
         secondsLeft--;
-        document.getElementById("time").textContent = secondsLeft + " seconds left";
+        document.getElementById("time").textContent = secondsLeft ;
 
         if (secondsLeft === 0) {
             clearInterval(timerInterval);
@@ -19,9 +19,11 @@ startBtn.addEventListener("click", function () {
     setTime();
     document.getElementById("start-screen").classList.add("hide");
     document.getElementById("questions").classList.remove("hide");
-
+  
 });
 
 subut.addEventListener("click", function () {
     clearInterval(timerInterval); 
 });
+
+questions.textContent
