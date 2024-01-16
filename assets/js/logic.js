@@ -25,7 +25,6 @@ function arrquestions() {
         jsquestions.append(questLi);
     }
 }
-arrquestions();
 
 startBtn.addEventListener("click", function () {
     setTime();
@@ -37,7 +36,6 @@ startBtn.addEventListener("click", function () {
   document.getElementById("question-title")
 });
 
-console.log()
 
 subut.addEventListener("click", function () {
     clearInterval(timerInterval); 
