@@ -16,7 +16,7 @@ function setTime() {
     }, 1000);
 }
 
-console.log(questions.length)
+
 function arrquestions() {
     jsquestions.textContent = "";
     for (var i = 0; i < questions.length; i++) {
